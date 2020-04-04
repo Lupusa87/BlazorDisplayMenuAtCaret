@@ -17,9 +17,9 @@ namespace BlazorDisplayMenuAtCaret.Shared
             if (!MyJsInterop.IsReady)
             {
                 MyJsInterop.jsRuntime = jsRuntime;
-                MyJsInterop.IsReady = true;
+               // MyJsInterop.IsReady = true;
             }
-                   
+
             base.OnInitialized();
         }
 
